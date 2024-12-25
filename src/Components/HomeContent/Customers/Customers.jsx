@@ -2,10 +2,10 @@ import { FaStar } from "react-icons/fa";
 
 const Customers = () => {
     return (
-        <div className="py-24 bg-[#FFF7E2] px-24">
+        <div className="py-24 bg-[#FFF7E2] md:px-24 px-5">
             <h1 className="text-4xl font-bold text-center text-green-800 mb-12">STORIES FROM OUR VALUED CUSTOMERS!</h1>
-            <div className="flex items-center justify-between gap-6">
-                <div className="rounded-2xl border border-gray-500 w-96 shadow-lg">
+            <div className="md:flex items-center justify-between gap-6">
+                <div className="rounded-2xl border border-gray-500 md:w-96 shadow-lg">
                     <div className="py-3 px-5 bg-gray-100 rounded-t-2xl border-t border-t-gray-500 border-b border-b-gray-500">
                         <h2 className="text-lg font-bold">Consulted For Skin</h2>
                     </div>
@@ -25,7 +25,7 @@ const Customers = () => {
                         <p>Ultrices eros in cursus turpis massa tincidunt sem nulla pharetra diam sit amet nisl suscipit adipis.</p>
                     </div>
                 </div>
-                <div className="rounded-2xl border border-gray-500 w-96 shadow-lg">
+                <div className="rounded-2xl border border-gray-500 md:w-96 shadow-lg">
                     <div className="py-3 px-5 bg-[#ECFEE7] rounded-t-2xl border-t border-t-gray-500 border-b border-b-gray-500">
                         <h2 className="text-lg font-bold">Consulted For Skin</h2>
                     </div>
@@ -45,7 +45,7 @@ const Customers = () => {
                         <p>Ultrices eros in cursus turpis massa tincidunt sem nulla pharetra diam sit amet nisl suscipit adipis.</p>
                     </div>
                 </div>
-                <div className="rounded-2xl border border-gray-500 w-96 shadow-lg">
+                <div className="rounded-2xl border border-gray-500 md:w-96 shadow-lg">
                     <div className="py-3 px-5 bg-[#ECFEE7] rounded-t-2xl border-t border-t-gray-500 border-b border-b-gray-500">
                         <h2 className="text-lg font-bold">Consulted For Skin</h2>
                     </div>

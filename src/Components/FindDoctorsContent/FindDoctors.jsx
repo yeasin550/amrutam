@@ -83,7 +83,7 @@ const FindDoctors = () => {
                                 alt="Doctor profile"
                                 className="w-32 h-32 rounded-full object-cover"
                             />
-                            <div className="absolute bottom-0 right-0 bg-black text-white text-sm px-2 py-0.5 rounded-full flex items-center">
+                            <div className="absolute -bottom-3 right-8 bg-black text-white text-sm px-2 py-0.5 rounded-full flex items-center">
                                 <span>4.5</span>
                                 <FaStar className="w-4 h-4 ml-1 text-yellow-400 fill-current" />
                             </div>
@@ -133,7 +133,7 @@ const FindDoctors = () => {
                                 alt="Doctor profile"
                                 className="w-32 h-32 rounded-full object-cover"
                             />
-                            <div className="absolute bottom-0 right-0 bg-black text-white text-sm px-2 py-0.5 rounded-full flex items-center">
+                            <div className="absolute -bottom-3 right-8 bg-black text-white text-sm px-2 py-0.5 rounded-full flex items-center">
                                 <span>4.5</span>
                                 <FaStar className="w-4 h-4 ml-1 text-yellow-400 fill-current" />
                             </div>
@@ -183,7 +183,7 @@ const FindDoctors = () => {
                                 alt="Doctor profile"
                                 className="w-32 h-32 rounded-full object-cover"
                             />
-                            <div className="absolute bottom-0 right-0 bg-black text-white text-sm px-2 py-0.5 rounded-full flex items-center">
+                            <div className="absolute -bottom-3 right-8 bg-black text-white text-sm px-2 py-0.5 rounded-full flex items-center">
                                 <span>4.5</span>
                                 <FaStar className="w-4 h-4 ml-1 text-yellow-400 fill-current" />
                             </div>

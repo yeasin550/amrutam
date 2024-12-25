@@ -3,11 +3,11 @@
 const Approach = () => {
     return (
         <div>
-            <div className="text-center w-[600px] mx-auto space-y-4">
+            <div className="text-center md:w-[600px] mx-auto space-y-4 md:px-0 px-5">
                 <h1 className="text-4xl font-bold text-green-800">Our Ayurvedic Approach</h1>
                 <p>At Amrutam we follow a unique and personalized approach to healing. Our expert practitioners begin each treatment process by conducting a thorough analysis of the patient’s body type, medical history, and current health conditions.</p>
             </div>
-            <div className="flex items-center justify-between gap-5 my-16">
+            <div className="md:flex items-center justify-between gap-5 my-16 md:px-0 px-5">
                 <div className="rounded-3xl border-t-4 h-72 border-t-green-700 p-5 flex flex-col text-center items-center justify-center space-y-3 bg-[#FFF7E2] shadow-md">
                     <h1 className="w-20 h-20 flex items-center justify-center text-4xl font-bold rounded-full bg-green-700 text-white">1</h1>
                     <h1 className="text-2xl font-bold text-green-800">Make Appointment</h1>
