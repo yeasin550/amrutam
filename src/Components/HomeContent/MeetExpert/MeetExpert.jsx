@@ -1,10 +1,10 @@
-import {FaGraduationCap, FaLink, FaLongArrowAltLeft, FaLongArrowAltRight, FaStar } from "react-icons/fa";
+import {FaArrowRight, FaGraduationCap, FaLink, FaLongArrowAltLeft, FaLongArrowAltRight, FaStar } from "react-icons/fa";
 import cardProfile from "../../../assets/group.png"
 
 const MeetExpert = () => {
     return (
         <div>
-            <h1 className="text-5xl font-bold text-center text-green-800 mb-12">Meet our Ayurveda experts </h1>
+            <h1 className="text-5xl font-bold text-center mt-12 text-green-800 mb-5">Meet our Ayurveda experts </h1>
             <div className="md:flex items-center justify-between md:px-0 px-5">
                 <FaLongArrowAltLeft className="py-3 text-6xl border border-black rounded-full" />
                 <div className="bg-[#fdf6e9] rounded-[30px] border border-gray-400 md:w-[290px] mt-12">
@@ -88,6 +88,10 @@ const MeetExpert = () => {
 
                 </div>
                 <FaLongArrowAltRight className="py-3 text-6xl border border-black rounded-full"/>
+            </div>
+            <div className="w-56 mx-auto my-10 text-lg font-bold">
+
+            <button className="py-3 px-5 rounded-md bg-gray-200 flex items-center gap-3">Find more expert <FaArrowRight/></button>
             </div>
         </div>
     );
