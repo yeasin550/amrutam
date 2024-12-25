@@ -4,7 +4,7 @@ import ProfileHeder from "./ProfileHeder";
 
 const DoctorProfile = () => {
     return (
-        <div>
+        <div className="md:w-10/12 mx-auto">
             <ProfileHeder />
             <ProfileContent/>
             

@@ -4,7 +4,7 @@ import { FaMessage } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <div className="bg-[#1E1E1E] text-[#bcbec2] mt-12">
+        <div className="bg-[#1E1E1E] text-[#bcbec2]">
             <div className="w-11/12 mx-auto md:px-28 py-12 grid grid-cols-2 md:grid-cols-4 gap-12 justify-between">
                 <div className="space-y-4">
                     A M R U T A M

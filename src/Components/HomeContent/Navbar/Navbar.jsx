@@ -39,6 +39,14 @@ const Navbar = () => {
                         Find Doctors
                     </NavLink>
                     <NavLink
+                        to="/profile"
+                        className={({ isActive }) =>
+                            `text-[#3A643B] hover:font-semibold ${isActive ? 'font-bold' : ''}`
+                        }
+                    >
+                        Profile
+                    </NavLink>
+                    <NavLink
                         to="/about"
                         className={({ isActive }) =>
                             `text-[#3A643B] hover:font-semibold ${isActive ? 'font-bold' : ''}`
@@ -91,6 +99,14 @@ const Navbar = () => {
                         }
                     >
                         Find Doctors
+                    </NavLink>
+                    <NavLink
+                        to="/profile"
+                        className={({ isActive }) =>
+                            `text-[#3A643B] hover:font-semibold ${isActive ? 'font-bold' : ''}`
+                        }
+                    >
+                        Profile
                     </NavLink>
                     <NavLink
                         to="/about"

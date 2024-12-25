@@ -3,7 +3,7 @@ import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home";
 import FindDoctors from "../Components/FindDoctorsContent/FindDoctors";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
-
+import DoctorProfile from "../Components/HomeContent/DoctorProfile/DoctorProfile";
 
 const router = createBrowserRouter([
     {
@@ -18,6 +18,10 @@ const router = createBrowserRouter([
             {
                 path: "/find-doctor",
                 element: <FindDoctors/>
+            },
+            {
+                path: "/profile",
+                element: <DoctorProfile />
             }
         ]
     },
