@@ -13,12 +13,8 @@ const Banner = () => {
             //     height: '60vh',
             // }}
         >
-           
-           
-
-            <section className="z-10">
                 <div className="flex flex-col-reverse md:flex-row items-center mx-auto">
-                    <div className="space-y-4 md:w-2/3 mx-left md:py-20 my-10 md:px-24 px-5">
+                    <div className="space-y-4 md:w-2/3 mx-left md:py-16 my-10 md:px-24 px-5">
                         <p className="text-xl">Namaste, Welcome to Amrutam </p>
                         <h1 className="md:text-4xl text-2xl font-bold">
                             Step into Holistic Healing with Ayurveda Book Consultation with certified Experts.
@@ -30,13 +26,12 @@ const Banner = () => {
                             Book an Appointment
                         </button>
                     </div>
-                    <div className="w-full md:w-[500px] py-8">
+                    <div className="w-full md:w-[450px] py-8 md:mr-16">
                         <img src="https://www.svgrepo.com/show/493509/person-who-invests.svg" className="g-image"/>
                     </div>
                 </div>
-            </section>
 
-            <div className="bg-[#FFF7E2] md:flex items-center justify-between py-5 px-14">
+            <div className="bg-[#FFF7E2] md:flex items-center justify-between pb-5 px-14">
                 <div className="flex items-center gap-2">
                     <img src={convenient} alt="" />
                     <p className="font-semibold">convenient online &
